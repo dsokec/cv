@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <h1> Personal Information </h1>
+    <ul>
+        <li> +385994091594 </li>
+        <li> dino.sokec97@gmail.com </li>
+    </ul>
+    <h1> Address </h1>
+    <ul>
+        <li> Tratinska 11, Đurđevac </li>
+        <li> Croatia </li>
+    </ul>
+
+    <!-- 
+        Form
+    
+        Visit website for more information 
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+
+        Input 
+
+        Visit website for more information
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    -->
+
+    <!--
+        Nested comments are possible
+
+        replace -- with - - for the inner (nested) comment
+
+        <form class="" action="HTML_Website.html" method="post"> <!- - After pressing the submit button - ->
+    -->
+    
+
+    <!-- Sending an email to recepient -->
+    <form action="mailto:wallas.werot@gmail.com" method="post" enctype="text/plain"></form>
+        <label for=""> Your Name: </label>
+        <input type="text" name="yourName"><br>
+        <!-- 
+            <input type="color"><br>  Prijelaz u novi redak
+        -->
+        
+        <label for=""> Your Email: </label>
+        <input type="email" name="yourEmail"><br>
+
+        <label for=""> Your Message: </label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+
+        <!-- 
+        <label for=""> Do you want to sign up to the mail list? </label>
+        <input type="checkbox">
+        -->
+
+        <!--
+        <label for=""> Password: </label>
+        <input type="password"> <!- - Masked password - ->
+        -->
+        
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>

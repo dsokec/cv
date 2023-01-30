@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> About Dino </title>
+</head>
+<body>
+
+    <!-- 
+        Sve informacije na linku
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/
+    -->
+
+    <!-- Table -->
+    <table cellspacing = "20">
+        <tr>
+            <td> <img src="dinoProfileCircle.png" alt="Dino profile picture"> </td>
+            
+            <td> <h1> Dino Šokec </h1>
+                <p> <em> Software and Web Developer in his <strong> own company Itronic </strong></em> </p>
+            
+                <p> <strong> Prvostupnik informatike </strong> na 
+                    <em> <a href="https://www.foi.unizg.hr/"> Fakultetu organizacije i informatike </a> </em>  
+                    u <strong> <a href="https://hr.wikipedia.org/wiki/Vara%C5%BEdin"> Varaždinu </a> </strong> 
+                </p>
+            
+                <p> John Smith is a highly skilled software developer 
+                    with over 10 years of experience in the industry. 
+                </p>
+            </td>
+        </tr>
+    </table>
+    
+    
+    <hr>
+
+    <!-- Books and Teaching -->
+    <h3> Books and Teaching </h3>
+    <ul>
+        <li> Complete IOS Development BootCamp </li>
+        <li> Complete Web Development BootCamp </li>
+    </ul>
+
+    <hr>
+    <!-- Work Experience -->
+    <h3> Work Experience</h3>
+    <!--
+        <p> 2016 - 2018 Lead Developer at Tempo App </p>
+        <p> 2019 - 2020  Researcher at The Institute of Cognitive Neuroscience </p>
+    -->
+    <!-- Table 2-->
+    <table border="1" cellpadding = "10">
+
+        <thead>
+            <tr>
+                <th> Dates </th>
+                <th> Work </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> 2016 - 2018 </td>
+                <td> Lead Developer at Tempo App </td>
+            </tr>
+            <tr>
+                <td> 2019 - 2020</td>
+                <td> Researcher at The Institute of Cognitive Neuroscience </td>
+            </tr>
+        </tbody>
+        <!-- <tfoot> </tfoot> -->
+        
+    </table>
+
+    <hr>
+
+    <!-- Skills -->
+    <h3> Skills </h3>
+
+    <!-- 
+        Nested table
+        It is very complicated!
+
+        One table - One tr - Two td
+    -->
+    <table border="1"> <!-- Outside border. NOT on inside -->
+        <tr>
+            <td> <!-- 1st row-->
+                <table cellpadding = "5"> <!-- Start of nested table-->
+                    <tr>
+                        <td> iOS Development </td>
+                        <td> ⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td> Web Development </td>
+                        <td> ⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td> Photography </td>
+                        <td> ⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+
+            <td>
+                <table cellpadding = "5">
+                    <tr>
+                        <td> Bootstrap </td>
+                        <td> ⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td> Javascript </td>
+                        <td> ⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td> Business English </td>
+                        <td> ⭐⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- 
+        Wrong version. But it works
+
+    <table cellpadding = "5" cellspacing = "10">
+        <tr>
+            <td> iOS Development </td>
+            <td> ⭐⭐⭐ </td>
+            <td> Photography </td>
+            <td> ⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td> Web Development </td>
+            <td> ⭐⭐⭐⭐⭐ </td>
+            <td> Painting </td>
+            <td> ⭐⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+    -->
+    
+
+    <!-- Links to the other sites -->
+    <hr>
+    <a href="Hobbies.html"> My Hobbies </a>
+
+    <hr>
+    <a href="contactMe.html"> Contact Me </a>
+</body>
+</html>
